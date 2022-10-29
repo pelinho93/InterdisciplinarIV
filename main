@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+   <head>
+
+       <title> Atividade Interdisciplinar IV </title>
+
+       <meta charset="utf-8">
+
+   </head>
+    <head>
+        <title>Login</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1 class="header"><!-- header-->
+            Seja bem-vindo(a)!
+        </h1><hr>
+
+        <div id="container"> <!-- inicio container do formulário-->
+
+            <h1 class="login"><!-- inicio formulário-->
+                Faça seu login:
+            </h1>
+
+   <body>
+
+<form action="destino.php" method="post">
+
+ <div class="mb-3">
+
+   <label for="exampleInputEmail1" class="form-label">Usuário</label>
+
+   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+ </div>
+
+ <div class="mb-3">
+
+   <label for="exampleInputPassword1" class="form-label">Senha</label>
+
+   <input type="password" class="form-control" id="exampleInputPassword1">
+
+ </div>
+
+ <button type="submit" class="btn btn-primary">Enviar</button>
+
+ <button type="reset" class="btn btn-primary">Cancelar</button>
+
+</form>
+
+   </body>
+
+</html>
